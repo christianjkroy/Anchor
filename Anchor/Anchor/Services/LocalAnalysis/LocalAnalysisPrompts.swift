@@ -69,7 +69,7 @@ enum LocalAnalysisPrompts {
         let name: String
         let relationshipType: String
         let interactionCount: Int
-        let initiationRatioCurrent: Double
+        let initiationRatioCurrent: Double?
         let initiationRatioPrevious: Double?
         let sentimentDistribution: SentimentDist
         let topFeelingAfter: String?

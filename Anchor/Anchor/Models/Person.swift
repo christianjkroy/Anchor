@@ -23,10 +23,10 @@ final class Person {
 
     var totalInteractions: Int { interactions.count }
 
-    /// Fraction of interactions YOU initiated (0.0–1.0). Excludes "unclear".
-    var initiationRatio: Double {
+    /// Fraction of interactions YOU initiated (0.0–1.0). Excludes "unclear". Nil if no data.
+    var initiationRatio: Double? {
         let meaningful = interactions.filter { $0.initiator != .unclear }
-        guard !meaningful.isEmpty else { return 0.5 }
+        guard !meaningful.isEmpty else { return nil }
         let youCount = meaningful.filter { $0.initiator == .you }.count
         return Double(youCount) / Double(meaningful.count)
     }
