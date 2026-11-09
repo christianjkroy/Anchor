@@ -1,15 +1,15 @@
 # Anchor
 
-**Cross-platform app that shows the gap between how you see your relationships and your actual patterns.**
+**An app that compares how you see your relationships with what your logged interactions show.**
 
-Personal project · iOS, web, and backend
+Personal project · iOS app, web dashboard, and backend
 
 ## Highlights
 
-- Engineered a full-stack app across an iOS client, a Node.js backend, a React dashboard, and an R analysis service
-- Scores initiation imbalance, sentiment drift, and perception mismatches from the interactions you log
-- Runs sentiment analysis on device and renders a 60 fps Metal relationship graph, with optional encrypted cloud sync
-- Generates weekly digests with a multi-agent LLM pipeline (logger, analyzer, critic) and semantic search with pgvector
+- Connected 4 parts into one product: an iOS app, a Node.js server, a React web dashboard, and an R statistics service
+- Scored 3 patterns from your logs: who usually reaches out first, how the tone of your interactions shifts over time, and where your view differs from your behavior
+- Kept sentiment analysis on the phone for privacy, with optional encrypted cloud sync and a 60 frames-per-second relationship graph
+- Automated weekly summaries with 3 AI agents that log, analyze, and critique, and added search by meaning using pgvector
 
 ## Built with
 
